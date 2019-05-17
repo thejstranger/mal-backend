@@ -1,0 +1,15 @@
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.Migrations\bin\Debug\netcoreapp2.2\MAL.Migrations.deps.json
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.Migrations\bin\Debug\netcoreapp2.2\MAL.Migrations.dll
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.Migrations\bin\Debug\netcoreapp2.2\MAL.Common.dll
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.Migrations\bin\Debug\netcoreapp2.2\MAL.Common.pdb
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.Migrations\obj\Debug\netcoreapp2.2\MAL.Migrations.csprojAssemblyReference.cache
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.Migrations\obj\Debug\netcoreapp2.2\MAL.Migrations.csproj.CoreCompileInputs.cache
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.Migrations\obj\Debug\netcoreapp2.2\MAL.Migrations.AssemblyInfoInputs.cache
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.Migrations\obj\Debug\netcoreapp2.2\MAL.Migrations.AssemblyInfo.cs
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.Migrations\obj\Debug\netcoreapp2.2\MAL.Migrations.csproj.CopyComplete
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.Migrations\bin\Debug\netcoreapp2.2\MAL.Migrations.pdb
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.Migrations\obj\Debug\netcoreapp2.2\MAL.Migrations.dll
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.Migrations\obj\Debug\netcoreapp2.2\MAL.Migrations.pdb
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.Migrations\bin\Debug\netcoreapp2.2\MAL.Migrations.runtimeconfig.json
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.Migrations\bin\Debug\netcoreapp2.2\MAL.Migrations.runtimeconfig.dev.json
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.Migrations\bin\Debug\netcoreapp2.2\db\migrations\V1__Create_Table.sql

@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  api:
+    restart: on-failure
+    build: 
+      context: ../
+      dockerfile: ./docker/Dockerfile
+    environment: 
+      ASPNETCORE_URLS: "http://*:4321"
+    ports: 
+      - "4321:4321"
+    expose:
+      - "4321"
+  auth:
+    restart: on-failure
+    build:
+      context: ../
+      dockerfile: ./docker/DockerfileAuth
+    environment: 
+      ASPNETCORE_URLS: "http://*:5321"
+    ports: 
+      - "5321:5321"
+    expose:
+      - "4321"
+  nginx:
+    restart: on-failure
+    build:
+      context: ../
+      dockerfile: ./docker/DockerfileNginx
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - "api"
+      

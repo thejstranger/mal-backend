@@ -1,0 +1,54 @@
+version: '3'
+
+services:
+  api:
+    restart: always
+    build: 
+      context: ../
+      dockerfile: ./docker/Dockerfile
+    environment: 
+      ASPNETCORE_URLS: "http://*:4321"
+      DB-CONNECTION-STRING: "Host=db;Port=5432;Database=mal;User Id=user;Password=password123;"
+    expose:
+      - "4321"
+  auth:
+    restart: always
+    build:
+      context: ../
+      dockerfile: ./docker/DockerfileAuth
+    environment: 
+      ASPNETCORE_URLS: "http://*:5321"
+      DB-CONNECTION-STRING: "Host=db;Port=5432;Database=mal;User Id=user;Password=password123;"
+    expose:
+      - "5321"
+  db:
+    image: postgres
+    restart: always
+    ports:
+    - 5432:5432
+    environment:
+      POSTGRES_DB: mal
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password123
+    volumes:
+     - db:/var/lib/postgresql/data
+  nginx:
+    restart: always
+    build:
+      context: ../
+      dockerfile: ./docker/DockerfileNginx
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - "api"
+  migration:
+    build:
+      context: ../
+      dockerfile: ./docker/DockerfileMigrations
+    environment:
+      Retries: 5
+    depends_on:
+      - db
+volumes:
+  db:

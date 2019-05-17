@@ -1,0 +1,66 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: api
+  template:
+    metadata:
+      labels:
+        component: api
+    spec:
+      initContainers:
+        - name: check-db-ready
+          image: postgres
+          command: ['sh', '-c',
+                    'until pg_isready -h db-cluster-service -p 5432; 
+          do echo waiting for database; sleep 2; done;']
+        - name: migrate-db-wait10
+          image: thejstranger/mal-migrations
+          imagePullPolicy: Never
+          env:
+            - name: DB_USER
+              value: postgres
+            - name: DB_HOST
+              value: db-cluster-service
+            - name: DB_PORT
+              value: "5432"
+            - name: DB_NAME
+              value: postgres
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mal-secret
+                  key: DB_PASSWORD
+      containers:
+        - name: api
+          image: thejstranger/mal-webapi
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 4321
+          env:
+            - name: DB_USER
+              valueFrom:
+                configMapKeyRef:
+                  name: mal-config
+                  key: postgres.user
+            - name: DB_HOST
+              value: db-cluster-service
+            - name: DB_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: mal-config
+                  key: postgres.port
+            - name: DB_NAME
+              valueFrom:
+                configMapKeyRef:
+                  name: mal-config
+                  key: postgres.name
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mal-secret
+                  key: DB_PASSWORD

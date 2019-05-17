@@ -1,0 +1,134 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "ef01171a1e604dec15db6b003cdecd1cd373bd2b"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "MAL.DAL/1.0.0": {
+        "dependencies": {
+          "Evolve": "2.2.0",
+          "MAL.Common": "1.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "2.2.0"
+        },
+        "runtime": {
+          "MAL.DAL.dll": {}
+        }
+      },
+      "Apache.NMS/1.7.1": {
+        "runtime": {
+          "lib/net40/Apache.NMS.dll": {
+            "assemblyVersion": "1.7.1.3894",
+            "fileVersion": "1.7.1.3894"
+          }
+        }
+      },
+      "Apache.NMS.ActiveMQ/1.7.2": {
+        "dependencies": {
+          "Apache.NMS": "1.7.1"
+        },
+        "runtime": {
+          "lib/net40/Apache.NMS.ActiveMQ.dll": {
+            "assemblyVersion": "1.7.2.4108",
+            "fileVersion": "1.7.2.4108"
+          }
+        }
+      },
+      "Evolve/2.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/Evolve.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
+      },
+      "Npgsql/4.0.4": {
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Npgsql.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.0.4.0"
+          }
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL/2.2.0": {
+        "dependencies": {
+          "Npgsql": "4.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
+      },
+      "System.ValueTuple/4.5.0": {},
+      "MAL.Common/1.0.0": {
+        "dependencies": {
+          "Apache.NMS": "1.7.1",
+          "Apache.NMS.ActiveMQ": "1.7.2"
+        },
+        "runtime": {
+          "MAL.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MAL.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Apache.NMS/1.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sQA+1dl1hBB0AkhBys7oJ6y9lBJnjH5xVc2aQ5bbEv/pbyMhlN8Yuo/NceYVGNdSK89ANp9XyQsaVUI975QLjg==",
+      "path": "apache.nms/1.7.1",
+      "hashPath": "apache.nms.1.7.1.nupkg.sha512"
+    },
+    "Apache.NMS.ActiveMQ/1.7.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-byKSg5/G7JGoDzSGGw4KK43/hpOGrXCtjZyjBcEjTF6ZscnrUiy8r20nyv85P55+nNmfa8q+tSF0GURd1GxYag==",
+      "path": "apache.nms.activemq/1.7.2",
+      "hashPath": "apache.nms.activemq.1.7.2.nupkg.sha512"
+    },
+    "Evolve/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5TjEs1jwdrtF6NB2ZTAqy3bh0X1ZuW2Yqi2uglL58GJ+duwwn0g/+iUJOB7Xknib5pnhibW1BWc/r7fUx31DUg==",
+      "path": "evolve/2.2.0",
+      "hashPath": "evolve.2.2.0.nupkg.sha512"
+    },
+    "Npgsql/4.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Wkq6mN0cpIvqtXEwk4szCSTxsLyfYjOrRrL1rHRUuopYztkg3F1Pda2hrfCOHphGXiqbkLnW9OS0SYrx6cJYHQ==",
+      "path": "npgsql/4.0.4",
+      "hashPath": "npgsql.4.0.4.nupkg.sha512"
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gUHdEtuJ8JR//bLMBzsu6WZOO858Jfli1BEoMcEv3ehgcU4ibdwEXUNt2b0Xs0MJmZ031wTDGasmdFEXH2KAjw==",
+      "path": "npgsql.entityframeworkcore.postgresql/2.2.0",
+      "hashPath": "npgsql.entityframeworkcore.postgresql.2.2.0.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    },
+    "MAL.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

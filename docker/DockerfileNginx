@@ -1,0 +1,16 @@
+    
+FROM tannerfe/alpine-openssl as ssl_cert
+WORKDIR '/cert'
+
+RUN openssl req -new -newkey rsa:4096 -days 365 -nodes -x509 \
+    -subj "/O=API/CN=www.mal.com" \
+    -keyout server.key  -out server.crt
+
+FROM nginx:alpine
+
+COPY --from=ssl_cert /cert/server.crt /etc/nginx/server.crt
+COPY --from=ssl_cert /cert/server.key /etc/nginx/server.key
+
+COPY ./docker/nginx.conf /etc/nginx
+
+#ENTRYPOINT ["sh", "-c"]

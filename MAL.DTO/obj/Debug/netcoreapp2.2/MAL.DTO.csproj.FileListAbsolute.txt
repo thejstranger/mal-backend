@@ -1,0 +1,8 @@
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DTO\bin\Debug\netcoreapp2.2\MAL.DTO.deps.json
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DTO\bin\Debug\netcoreapp2.2\MAL.DTO.dll
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DTO\bin\Debug\netcoreapp2.2\MAL.DTO.pdb
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DTO\obj\Debug\netcoreapp2.2\MAL.DTO.csproj.CoreCompileInputs.cache
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DTO\obj\Debug\netcoreapp2.2\MAL.DTO.AssemblyInfoInputs.cache
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DTO\obj\Debug\netcoreapp2.2\MAL.DTO.AssemblyInfo.cs
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DTO\obj\Debug\netcoreapp2.2\MAL.DTO.dll
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DTO\obj\Debug\netcoreapp2.2\MAL.DTO.pdb

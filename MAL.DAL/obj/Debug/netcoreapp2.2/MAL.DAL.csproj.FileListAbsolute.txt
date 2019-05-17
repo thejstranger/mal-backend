@@ -1,0 +1,14 @@
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DAL\bin\Debug\netcoreapp2.2\MAL.DAL.deps.json
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DAL\bin\Debug\netcoreapp2.2\MAL.DAL.runtimeconfig.json
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DAL\bin\Debug\netcoreapp2.2\MAL.DAL.runtimeconfig.dev.json
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DAL\bin\Debug\netcoreapp2.2\MAL.DAL.dll
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DAL\bin\Debug\netcoreapp2.2\MAL.DAL.pdb
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DAL\obj\Debug\netcoreapp2.2\MAL.DAL.csproj.CoreCompileInputs.cache
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DAL\obj\Debug\netcoreapp2.2\MAL.DAL.AssemblyInfoInputs.cache
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DAL\obj\Debug\netcoreapp2.2\MAL.DAL.AssemblyInfo.cs
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DAL\obj\Debug\netcoreapp2.2\MAL.DAL.dll
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DAL\obj\Debug\netcoreapp2.2\MAL.DAL.pdb
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DAL\obj\Debug\netcoreapp2.2\MAL.DAL.csprojAssemblyReference.cache
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DAL\bin\Debug\netcoreapp2.2\MAL.Common.dll
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DAL\bin\Debug\netcoreapp2.2\MAL.Common.pdb
+C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.DAL\obj\Debug\netcoreapp2.2\MAL.DAL.csproj.CopyComplete

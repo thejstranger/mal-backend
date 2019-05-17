@@ -1,0 +1,22 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: ingress-config
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+    nginx.ingress.kubernetes.io/use-regex: "true"
+spec:
+  rules:
+    - http:
+        paths: 
+          - path: /user/?(.*)
+            backend:
+              serviceName: api-cluster-service
+              servicePort: 4321
+          - path: /auth/?(.*)
+            backend:
+              serviceName: auth-cluster-service
+              servicePort: 5321
+

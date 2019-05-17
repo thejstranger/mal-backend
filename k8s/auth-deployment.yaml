@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: auth
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: auth
+  template:
+    metadata:
+      labels:
+        component: auth
+    spec:
+      containers:
+        - name: auth
+          image: thejstranger/mal-auth
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 5321
+          env:
+            - name: DB_USER
+              valueFrom:
+                configMapKeyRef:
+                  name: mal-config
+                  key: postgres.user
+            - name: DB_HOST
+              value: db-cluster-service
+            - name: DB_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: mal-config
+                  key: postgres.port
+            - name: DB_NAME
+              valueFrom:
+                configMapKeyRef:
+                  name: mal-config
+                  key: postgres.name
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mal-secret
+                  key: DB_PASSWORD
