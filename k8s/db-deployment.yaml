@@ -23,10 +23,22 @@ spec:
                 configMapKeyRef:
                   name: mal-config
                   key: postgres.user
+            # - name: DB_HOST
+            #   value: db-cluster-service
             - name: DB_PORT
               value: "5432"
+            # - name: DB_PORT
+            #   valueFrom:
+            #     configMapKeyRef:
+            #       name: mal-config
+            #       key: postgres.port
+            # - name: DB_NAME
+            #   valueFrom:
+            #     configMapKeyRef:
+            #       name: mal-config
+            #       key: postgres.name
             - name: DB_PASSWORD
               valueFrom:
                 secretKeyRef:
                   name: mal-secret
-                  key: DB_PASSWORD
+                  key: db_password

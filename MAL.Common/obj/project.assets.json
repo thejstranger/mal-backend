@@ -12165,11 +12165,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Common\\MAL.Common.csproj",
+      "projectUniqueName": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Common\\MAL.Common.csproj",
       "projectName": "MAL.Common",
-      "projectPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Common\\MAL.Common.csproj",
+      "projectPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Common\\MAL.Common.csproj",
       "packagesPath": "C:\\Users\\jamie.strange\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Common\\obj\\",
+      "outputPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

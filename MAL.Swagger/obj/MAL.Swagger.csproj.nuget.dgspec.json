@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Swagger\\MAL.Swagger.csproj": {}
+    "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Swagger\\MAL.Swagger.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Common\\MAL.Common.csproj": {
+    "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Common\\MAL.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Common\\MAL.Common.csproj",
+        "projectUniqueName": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Common\\MAL.Common.csproj",
         "projectName": "MAL.Common",
-        "projectPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Common\\MAL.Common.csproj",
+        "projectPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Common\\MAL.Common.csproj",
         "packagesPath": "C:\\Users\\jamie.strange\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Common\\obj\\",
+        "outputPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.DAL\\MAL.DAL.csproj": {
+    "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.DAL\\MAL.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.DAL\\MAL.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.DAL\\MAL.DAL.csproj",
         "projectName": "MAL.DAL",
-        "projectPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.DAL\\MAL.DAL.csproj",
+        "projectPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.DAL\\MAL.DAL.csproj",
         "packagesPath": "C:\\Users\\jamie.strange\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.DAL\\obj\\",
+        "outputPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -94,8 +94,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Common\\MAL.Common.csproj": {
-                "projectPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Common\\MAL.Common.csproj"
+              "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Common\\MAL.Common.csproj": {
+                "projectPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Common\\MAL.Common.csproj"
               }
             }
           }
@@ -136,14 +136,14 @@
         }
       }
     },
-    "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.DTO\\MAL.DTO.csproj": {
+    "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.DTO\\MAL.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.DTO\\MAL.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.DTO\\MAL.DTO.csproj",
         "projectName": "MAL.DTO",
-        "projectPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.DTO\\MAL.DTO.csproj",
+        "projectPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.DTO\\MAL.DTO.csproj",
         "packagesPath": "C:\\Users\\jamie.strange\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.DTO\\obj\\",
+        "outputPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -188,14 +188,14 @@
         }
       }
     },
-    "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Services\\MAL.Services.csproj": {
+    "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Services\\MAL.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Services\\MAL.Services.csproj",
+        "projectUniqueName": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Services\\MAL.Services.csproj",
         "projectName": "MAL.Services",
-        "projectPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Services\\MAL.Services.csproj",
+        "projectPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Services\\MAL.Services.csproj",
         "packagesPath": "C:\\Users\\jamie.strange\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Services\\obj\\",
+        "outputPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -214,14 +214,14 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Common\\MAL.Common.csproj": {
-                "projectPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Common\\MAL.Common.csproj"
+              "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Common\\MAL.Common.csproj": {
+                "projectPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Common\\MAL.Common.csproj"
               },
-              "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.DAL\\MAL.DAL.csproj": {
-                "projectPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.DAL\\MAL.DAL.csproj"
+              "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.DAL\\MAL.DAL.csproj": {
+                "projectPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.DAL\\MAL.DAL.csproj"
               },
-              "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.DTO\\MAL.DTO.csproj": {
-                "projectPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.DTO\\MAL.DTO.csproj"
+              "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.DTO\\MAL.DTO.csproj": {
+                "projectPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.DTO\\MAL.DTO.csproj"
               }
             }
           }
@@ -262,14 +262,14 @@
         }
       }
     },
-    "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Swagger\\MAL.Swagger.csproj": {
+    "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Swagger\\MAL.Swagger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Swagger\\MAL.Swagger.csproj",
+        "projectUniqueName": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Swagger\\MAL.Swagger.csproj",
         "projectName": "MAL.Swagger",
-        "projectPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Swagger\\MAL.Swagger.csproj",
+        "projectPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Swagger\\MAL.Swagger.csproj",
         "packagesPath": "C:\\Users\\jamie.strange\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Swagger\\obj\\",
+        "outputPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Swagger\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -288,11 +288,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Common\\MAL.Common.csproj": {
-                "projectPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Common\\MAL.Common.csproj"
+              "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Common\\MAL.Common.csproj": {
+                "projectPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Common\\MAL.Common.csproj"
               },
-              "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Services\\MAL.Services.csproj": {
-                "projectPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Services\\MAL.Services.csproj"
+              "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Services\\MAL.Services.csproj": {
+                "projectPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Services\\MAL.Services.csproj"
               }
             }
           }

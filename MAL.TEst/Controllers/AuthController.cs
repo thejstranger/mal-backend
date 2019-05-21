@@ -29,6 +29,7 @@ namespace MAL.TEst.Controllers
 
         [AllowAnonymous]
         [HttpPost]
+        [Route("/token")]
         public IActionResult GetAuthToken([FromBody] UserLoginViewModel login)
         {
             try
@@ -51,33 +52,39 @@ namespace MAL.TEst.Controllers
 
         [AllowAnonymous]
         [HttpPost]
-        [Route("Email")]
+        [Route("/email")]
         public IActionResult SendEmail([FromBody] SendEmailViewModel details)
         {
-            // TODO Validate email
-            var emailCsv = details.Email;
-
-            string connectUri = $"activemq:tcp://{_configProvider.GetActiveMqHost()}:{_configProvider.GetActiveMqPort()}";
-
-            var queueConnectedEvent = new AutoResetEvent(false);
-
-            _queueOperator.TryConnect(connectUri, _configProvider.GetActiveMqUser(),
-                _configProvider.GetActiveMqPassword(), queueConnectedEvent, 10000, 2000);
-
-            if (queueConnectedEvent.WaitOne(10000))
+            try
             {
-                var propertyDict = new Dictionary<string, string>
+                var emailCsv = details.Email;
+
+                string connectUri = $"activemq:tcp://{_configProvider.GetActiveMqHost()}:{_configProvider.GetActiveMqPort()}";
+
+                var queueConnectedEvent = new AutoResetEvent(false);
+
+                _queueOperator.TryConnect(connectUri, _configProvider.GetActiveMqUser(),
+                    _configProvider.GetActiveMqPassword(), queueConnectedEvent, 10000, 2000);
+
+                if (queueConnectedEvent.WaitOne(10000))
+                {
+                    var propertyDict = new Dictionary<string, string>
                 {
                     {"email_recipients", emailCsv},
                     {"email_subject", "Forgotten Email"}
                 };
-                _queueOperator.ProduceMessage("Hello there!", propertyDict);
+                    _queueOperator.ProduceMessage("Hello there!", propertyDict);
 
-                _queueOperator.Dispose();
-                return Ok("Sent");
+                    _queueOperator.Dispose();
+                    return Ok("Sent");
+                }
+
             }
-
-            _queueOperator.Dispose();
+            catch( Exception ex)
+            {
+                _queueOperator.Dispose();
+                return StatusCode(500, "Could not connect to ActiveMQ service."+ex);
+            }
             return StatusCode(500, "Could not connect to ActiveMQ service.");
         }
 

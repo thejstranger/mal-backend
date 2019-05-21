@@ -1,0 +1,14 @@
+C:\Users\jamie.strange\source\mal-backend\MAL.Email\bin\Debug\netcoreapp2.2\MAL.Email.deps.json
+C:\Users\jamie.strange\source\mal-backend\MAL.Email\bin\Debug\netcoreapp2.2\MAL.Email.dll
+C:\Users\jamie.strange\source\mal-backend\MAL.Email\bin\Debug\netcoreapp2.2\MAL.Common.dll
+C:\Users\jamie.strange\source\mal-backend\MAL.Email\bin\Debug\netcoreapp2.2\MAL.Common.pdb
+C:\Users\jamie.strange\source\mal-backend\MAL.Email\obj\Debug\netcoreapp2.2\MAL.Email.csprojAssemblyReference.cache
+C:\Users\jamie.strange\source\mal-backend\MAL.Email\obj\Debug\netcoreapp2.2\MAL.Email.csproj.CoreCompileInputs.cache
+C:\Users\jamie.strange\source\mal-backend\MAL.Email\obj\Debug\netcoreapp2.2\MAL.Email.AssemblyInfoInputs.cache
+C:\Users\jamie.strange\source\mal-backend\MAL.Email\obj\Debug\netcoreapp2.2\MAL.Email.AssemblyInfo.cs
+C:\Users\jamie.strange\source\mal-backend\MAL.Email\obj\Debug\netcoreapp2.2\MAL.Email.csproj.CopyComplete
+C:\Users\jamie.strange\source\mal-backend\MAL.Email\bin\Debug\netcoreapp2.2\MAL.Email.pdb
+C:\Users\jamie.strange\source\mal-backend\MAL.Email\obj\Debug\netcoreapp2.2\MAL.Email.dll
+C:\Users\jamie.strange\source\mal-backend\MAL.Email\obj\Debug\netcoreapp2.2\MAL.Email.pdb
+C:\Users\jamie.strange\source\mal-backend\MAL.Email\bin\Debug\netcoreapp2.2\MAL.Email.runtimeconfig.json
+C:\Users\jamie.strange\source\mal-backend\MAL.Email\bin\Debug\netcoreapp2.2\MAL.Email.runtimeconfig.dev.json

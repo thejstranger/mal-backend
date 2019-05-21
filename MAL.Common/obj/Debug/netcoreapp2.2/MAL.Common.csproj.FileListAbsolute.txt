@@ -9,3 +9,14 @@ C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.Common\obj\Debug\netcoreapp2
 C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.Common\obj\Debug\netcoreapp2.2\MAL.Common.dll
 C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.Common\obj\Debug\netcoreapp2.2\MAL.Common.pdb
 C:\Users\jamie.strange\source\repos\MAL-Backend\MAL.Common\obj\Debug\netcoreapp2.2\MAL.Common.csprojAssemblyReference.cache
+C:\Users\jamie.strange\source\mal-backend\MAL.Common\bin\Debug\netcoreapp2.2\MAL.Common.deps.json
+C:\Users\jamie.strange\source\mal-backend\MAL.Common\bin\Debug\netcoreapp2.2\MAL.Common.runtimeconfig.json
+C:\Users\jamie.strange\source\mal-backend\MAL.Common\bin\Debug\netcoreapp2.2\MAL.Common.runtimeconfig.dev.json
+C:\Users\jamie.strange\source\mal-backend\MAL.Common\bin\Debug\netcoreapp2.2\MAL.Common.dll
+C:\Users\jamie.strange\source\mal-backend\MAL.Common\bin\Debug\netcoreapp2.2\MAL.Common.pdb
+C:\Users\jamie.strange\source\mal-backend\MAL.Common\obj\Debug\netcoreapp2.2\MAL.Common.csprojAssemblyReference.cache
+C:\Users\jamie.strange\source\mal-backend\MAL.Common\obj\Debug\netcoreapp2.2\MAL.Common.csproj.CoreCompileInputs.cache
+C:\Users\jamie.strange\source\mal-backend\MAL.Common\obj\Debug\netcoreapp2.2\MAL.Common.AssemblyInfoInputs.cache
+C:\Users\jamie.strange\source\mal-backend\MAL.Common\obj\Debug\netcoreapp2.2\MAL.Common.AssemblyInfo.cs
+C:\Users\jamie.strange\source\mal-backend\MAL.Common\obj\Debug\netcoreapp2.2\MAL.Common.dll
+C:\Users\jamie.strange\source\mal-backend\MAL.Common\obj\Debug\netcoreapp2.2\MAL.Common.pdb

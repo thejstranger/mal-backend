@@ -40,4 +40,4 @@ spec:
               valueFrom:
                 secretKeyRef:
                   name: mal-secret
-                  key: DB_PASSWORD
+                  key: db_password

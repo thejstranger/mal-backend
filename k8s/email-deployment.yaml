@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: email-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: email
+  template:
+    metadata:
+      labels:
+        component: email
+    spec:
+      containers:
+        - name: email
+          image: thejstranger/mal-email
+          env:
+            - name: AMQ_NAME
+              value: EmailConsumer
+            - name: AMQ_HOST
+              value: activemq-cluster-service
+            - name: AMQ_PORT
+              value: '61616'
+            - name: AMQ_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mal-amq-secret
+                  key: amq_password

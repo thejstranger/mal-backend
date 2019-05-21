@@ -14227,11 +14227,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.WebAPI.Tests\\MAL.WebAPI.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.WebAPI.Tests\\MAL.WebAPI.Tests.csproj",
       "projectName": "MAL.WebAPI.Tests",
-      "projectPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.WebAPI.Tests\\MAL.WebAPI.Tests.csproj",
+      "projectPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.WebAPI.Tests\\MAL.WebAPI.Tests.csproj",
       "packagesPath": "C:\\Users\\jamie.strange\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.WebAPI.Tests\\obj\\",
+      "outputPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.WebAPI.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -14250,11 +14250,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Services\\MAL.Services.csproj": {
-              "projectPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Services\\MAL.Services.csproj"
+            "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Services\\MAL.Services.csproj": {
+              "projectPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Services\\MAL.Services.csproj"
             },
-            "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.WebAPI\\MAL.WebAPI.csproj": {
-              "projectPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.WebAPI\\MAL.WebAPI.csproj"
+            "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.WebAPI\\MAL.WebAPI.csproj": {
+              "projectPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.WebAPI\\MAL.WebAPI.csproj"
             }
           }
         }

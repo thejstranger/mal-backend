@@ -23,18 +23,27 @@ spec:
           imagePullPolicy: Never
           env:
             - name: DB_USER
-              value: postgres
+              valueFrom:
+                configMapKeyRef:
+                  name: mal-config
+                  key: postgres.user
             - name: DB_HOST
               value: db-cluster-service
             - name: DB_PORT
-              value: "5432"
+              valueFrom:
+                configMapKeyRef:
+                  name: mal-config
+                  key: postgres.port
             - name: DB_NAME
-              value: postgres
+              valueFrom:
+                configMapKeyRef:
+                  name: mal-config
+                  key: postgres.name
             - name: DB_PASSWORD
               valueFrom:
                 secretKeyRef:
                   name: mal-secret
-                  key: DB_PASSWORD
+                  key: db_password
       containers:
         - name: api
           image: thejstranger/mal-webapi
@@ -63,4 +72,4 @@ spec:
               valueFrom:
                 secretKeyRef:
                   name: mal-secret
-                  key: DB_PASSWORD
+                  key: db_password

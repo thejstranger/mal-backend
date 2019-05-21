@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject />
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Apache.NMS.ActiveMQ" Version="1.7.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MAL.Common\MAL.Common.csproj" />
+  </ItemGroup>
 
 </Project>

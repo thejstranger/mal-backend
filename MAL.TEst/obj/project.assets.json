@@ -12516,11 +12516,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.TEst\\MAL.TEst.csproj",
+      "projectUniqueName": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.TEst\\MAL.TEst.csproj",
       "projectName": "MAL.TEst",
-      "projectPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.TEst\\MAL.TEst.csproj",
+      "projectPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.TEst\\MAL.TEst.csproj",
       "packagesPath": "C:\\Users\\jamie.strange\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.TEst\\obj\\",
+      "outputPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.TEst\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12539,14 +12539,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Common\\MAL.Common.csproj": {
-              "projectPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Common\\MAL.Common.csproj"
+            "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Common\\MAL.Common.csproj": {
+              "projectPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Common\\MAL.Common.csproj"
             },
-            "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.DAL\\MAL.DAL.csproj": {
-              "projectPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.DAL\\MAL.DAL.csproj"
+            "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.DAL\\MAL.DAL.csproj": {
+              "projectPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.DAL\\MAL.DAL.csproj"
             },
-            "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Services\\MAL.Services.csproj": {
-              "projectPath": "C:\\Users\\jamie.strange\\source\\repos\\MAL-Backend\\MAL.Services\\MAL.Services.csproj"
+            "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Services\\MAL.Services.csproj": {
+              "projectPath": "C:\\Users\\jamie.strange\\source\\mal-backend\\MAL.Services\\MAL.Services.csproj"
             }
           }
         }

@@ -8,7 +8,7 @@ namespace MAL.Common
 
         public string GetDbConnectionString()
         {
-            var dbString = Environment.GetEnvironmentVariable("DB-CONNECTION-STRING") ?? "Host=localhost;Port=5432;Database=postgres;User Id=postgres;Password=password123;";
+            var dbString = Environment.GetEnvironmentVariable("DB-CONNECTION-STRING") ?? "Host=db-cluster-service;Port=5432;Database=postgres;User Id=postgres;Password=password123;";
 
             return dbString;
         }
@@ -34,7 +34,7 @@ namespace MAL.Common
         public string GetActiveMqHost()
         {
             return Environment.GetEnvironmentVariable("AMQ_HOST")
-                   ?? "localhost";
+                   ?? "activemq-cluster-service";
         }
 
         public string GetActiveMqPort()
