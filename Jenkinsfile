@@ -8,6 +8,13 @@ pipeline {
                 sh 'dotnet build MAL-Backend.sln -c Debug '
             }
         }
+        stage('Test') {
+            steps {
+                echo 'Running MAL Auth Tests'
+                sh 'dotnet test MAL.TEst.Tests -c Debug'
+                echo 'Running MAL WebAPI Tests'
+                sh 'dotnet test MAL.WebAPI.Tests -c Debug'
+            }
     }
 
     post {
