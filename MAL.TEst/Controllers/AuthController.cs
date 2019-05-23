@@ -78,7 +78,6 @@ namespace MAL.TEst.Controllers
                     _queueOperator.Dispose();
                     return Ok("Sent");
                 }
-
             }
             catch( Exception ex)
             {
