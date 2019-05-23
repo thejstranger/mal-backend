@@ -15,12 +15,12 @@ pipeline {
                 echo 'Running MAL WebAPI Tests'
                 sh 'dotnet test MAL.WebAPI.Tests -c Debug'
             }
+        }
     }
-
     post {
         success {
             echo 'Successfull build'
             }
         }
-    }
+    
 }
