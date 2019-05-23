@@ -1,6 +1,7 @@
 using AutoFixture;
 using AutoMapper;
 using FluentAssertions;
+using MAL.Common;
 using MAL.DTO;
 using MAL.Services;
 using MAL.TEst;
@@ -16,11 +17,15 @@ namespace MAL.TEst.Tests
     {
         private readonly AuthController _authController;
         private readonly IUserService _userService;
+        private readonly IConfigProvider _configProvider;
+        private readonly IQueueOperator _queueOperator;
         public AuthControllerTests()
         {  
             var mapper = Substitute.For<IMapper>();
             _userService = Substitute.For<IUserService>();
-            _authController = new AuthController(_userService, mapper);
+            _configProvider = Substitute.For<IConfigProvider>();
+            _queueOperator = Substitute.For<IQueueOperator>();
+            _authController = new AuthController(_userService, mapper, _configProvider, _queueOperator );
         }
 
         [Fact]
