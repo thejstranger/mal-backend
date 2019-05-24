@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image 'node:7-alpine' }
+        docker { image 'mcr.microsoft.com/dotnet/core/sdk:2.2-alpine' }
     }
     stages {
         stage('Build') {
