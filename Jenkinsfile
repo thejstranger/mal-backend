@@ -1,9 +1,17 @@
 pipeline {
-    agent {
-        docker { image 'node:7-alpine' }
+  agent {
+        node {
+            label 'docker'
         }
+    }
     stages {
         stage('Build') {
+            agent {
+                docker {
+                    reuseNode true
+                    image 'mcr.microsoft.com/dotnet/core/sdk:2.2-alpine'
+                }
+            }     
             steps {
                 echo 'Building MAL Backend'
                 sh 'dotnet restore MAL-Backend.sln'
@@ -11,6 +19,12 @@ pipeline {
             }
         }
         stage('Test') {
+            agent {
+                docker {
+                    reuseNode true
+                    image 'mcr.microsoft.com/dotnet/core/sdk:2.2-alpine'
+                }
+            } 
             steps {
                 echo 'Running MAL Auth Tests'
                 sh 'dotnet test MAL.TEst.Tests -c Debug'
@@ -23,6 +37,5 @@ pipeline {
         success {
             echo 'Successfull build'
             }
-        }
-    
+        } 
 }
