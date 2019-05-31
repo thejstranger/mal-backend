@@ -4,12 +4,6 @@ pipeline {
         }
     stages {
         stage('Build') {
-            agent {
-                docker {
-                    reuseNode true
-                    image 'mcr.microsoft.com/dotnet/core/sdk:2.2-alpine'
-                    }
-                }
             steps {
                 echo 'Building MAL Backend'
                 sh 'dotnet restore MAL-Backend.sln'
