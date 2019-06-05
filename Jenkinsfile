@@ -38,4 +38,8 @@ pipeline {
             echo 'Successfull build'
             }
         } 
+
+    environment {
+        HOME = '/tmp'
+        } 
 }
