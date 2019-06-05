@@ -14,7 +14,6 @@ pipeline {
             }     
             steps {
                 echo 'Building MAL Backend'
-                sh 'dotnet restore MAL-Backend.sln'
                 sh 'dotnet build MAL-Backend.sln -c Debug -r linux-musl-x64'
             }
         }
