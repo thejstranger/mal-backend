@@ -9,7 +9,7 @@ pipeline {
             agent {
                 docker {
                     reuseNode true
-                    image 'mcr.microsoft.com/dotnet/core/sdk:2.2'
+                    image 'mcr.microsoft.com/dotnet/core/sdk:2.2-alpine'
                 }
             }     
             steps {
@@ -22,7 +22,7 @@ pipeline {
             agent {
                 docker {
                     reuseNode true
-                    image 'mcr.microsoft.com/dotnet/core/sdk:2.2'
+                    image 'mcr.microsoft.com/dotnet/core/sdk:2.2-alpine'
                 }
             } 
             steps {
