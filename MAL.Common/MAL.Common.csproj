@@ -7,7 +7,7 @@
   <ItemGroup>
     <PackageReference Include="Apache.NMS" Version="1.7.1" />
     <PackageReference Include="Apache.NMS.ActiveMQ" Version="1.7.2" />
-    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.4" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.6" />
   </ItemGroup>
 
 </Project>
